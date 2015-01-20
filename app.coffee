@@ -16,5 +16,8 @@ module.exports =
     use: [axis(), rupture(), autoprefixer()]
     sourcemap: true
 
+  locals:
+    title: 'Title'
+
   'coffee-script':
     sourcemap: true

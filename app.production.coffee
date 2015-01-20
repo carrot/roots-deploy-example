@@ -12,5 +12,8 @@ module.exports =
     css_pipeline(files: 'assets/css/*.styl', out: 'css/build.css', minify: true, hash: true)
   ]
 
+  locals:
+    title: 'Welcome to Roots!'
+
   stylus:
     use: [axis(), rupture(), autoprefixer()]
